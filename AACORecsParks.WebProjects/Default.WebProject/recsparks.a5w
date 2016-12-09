@@ -1,0 +1,38 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+
+
+<%a5
+Delete tmpl_RECSPARKS
+DIM tmpl_RECSPARKS as P
+tmpl_RECSPARKS = a5w_load_component("recsparks") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:recsparks)
+
+'Override settings start -----------------------------------------
+with tmpl_RECSPARKS
+.alias = "RECSPARKS"
+_dialogFilename = "recsparks"
+end with 
+'Override settings end -----------------------------------------
+
+delete x_RECSPARKS
+dim x_RECSPARKS as p
+x_RECSPARKS = a5w_run_Component(tmpl_RECSPARKS) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:recsparks)
+
+?x_RECSPARKS.Output.Head.JavaScript
+?x_RECSPARKS.Output.Head.CSS_Link
+
+?x_RECSPARKS.Output.Head.Title 
+%>
+
+
+<!--Alpha Five Temporary Code Start - Will be automatically removed when page is published -->
+<!--CSS for tmpl -->
+<link rel="stylesheet" type="text/css" href="file:///C:/Program Files (x86)/a5V12/css/iOS7/style.css">
+<!--Alpha Five Temporary Code End -->
+
+
+<meta content="text/html; charset=unicode" http-equiv=Content-Type><meta name=GENERATOR content="MSHTML 11.00.9600.18525"></head>
+<body>
+<%a5 ?x_RECSPARKS.Output.Body.Dialog2_HTML %>
+<%a5 ?a5dialogHelper_generateCORSHeaders() %>
+</body></html>

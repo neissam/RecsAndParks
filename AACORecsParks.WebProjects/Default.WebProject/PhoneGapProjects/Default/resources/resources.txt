@@ -1,0 +1,30 @@
+{
+	"_id": "2380992",
+	"_icon": "",
+	"_ssL": "",
+	"_ssP": "",
+	"_initialUxComponent": "recsparks",
+	"_componentLastUpdated": "12/08/2016 12:42:09 26 pm",
+	"_ajaxUrl": "http://10.204.196.142/AACORecsParks/",
+	"_additionalFiles": "",
+	"_userName": "zOBPcGv3c7gGmVOaOVpEL7cLkNVMEejO",
+	"_pw": "lSYh4HH9TUnndwqT0c/eLw==",
+	"_token": "",
+	"timeout": {
+		"phoneGapBuild": "60",
+		"phoneGapBuildLogin": "60",
+		"getAppIcon": "15"
+	},
+	"apperian": {
+		"enableOptions": false,
+		"loginName": "osLnGM4pUcQ=",
+		"password": "c5JMXi9Y+Ko=",
+		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
+	},
+	"backupConfigFile": true,
+	"useImageMagick": false,
+	"indexHTMLMetaTags": "",
+	"genAppZipFile": false,
+	"zipFileLocation": "",
+	"_sqlitedbdefined": false
+}
